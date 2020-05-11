@@ -31,7 +31,7 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    opacity: 0;
+    transition: opacity 0.7s ease;
 }
 
 .start h1 {
@@ -45,7 +45,7 @@ section {
     border: none;
     color: yellowgreen;
     font-size: 20px;
-    background: rgb(2, 43, 82);
+    background: rgb(202, 64, 0);
     border-radius: 3px;
     cursor: pointer;
 }
@@ -54,6 +54,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: opacity 0.7s ease 0.7s;
 }
 
 .winner {
